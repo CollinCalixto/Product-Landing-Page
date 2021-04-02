@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page</title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header id="header">
+        <figure>
+            <img id="header-img" src="img/applelogo.png" alt="Logo">
+        </figure>
+        <h1 id="brand">Apple</h1>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#about">Iphone 12</a>
+            <a class="nav-link" href="#price">Iphone Models</a>
+            <a class="nav-link" href="#signup">Pre-Order</a>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="signup">
+            <h2>Free iPhone</h2>
+            <p>Register your email and get a change to win a free iPhone 12!.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+                <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="about">
+            <h2>Iphone</h2>
+            <div id="video-container">
+                <iframe id="video" src="https://www.youtube.com/embed/cnXapYkboRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="price">
+            <h2>Different iPhone Models</h2>
+            <div id="box-member-container">
+                <div class="box-member">
+                    <h3>iPhone 12 Pro</h3>
+                    <h4>From &#8369;62,990</h4>
+                    <img src="img/iphone12.png" height="150px;">
+                    <p class="vantage">&#9745; 6.1" or 6.7" </p>
+                    <p class="vantage">&#9745; Super Retina XDR display</p>
+                    <p class="vantage">&#9745; A14 Bionic chip</p>
+                    <p class="vantage">&#9745; Pro camera System</p>
+                    <p class="vantage">&#9745; MagSafe Aprroved</p>
+                    <button id="button1">Purchase</button>
+                </div>
+                <div class="box-member">
+                    <h3>iPhone 12</h3>
+                    <h4>From &#8369;43,990</h4>
+                    <img src="img/ip12.png" height="150px;">
+                    <p class="vantage">&#9745; 5.4" or 6.1" </p>
+                    <p class="vantage">&#9745; Super Retina XDR display</p>
+                    <p class="vantage">&#9745; A14 Bionic chip</p>
+                    <p class="vantage">&#9745; Advanced dual-camera</p>
+                    <p class="vantage">&#9745; MagSafe Aprroved</p>
+                    <button id="button1">Purchase</button>
+                </div>
+                <div class="box-member">
+                    <h3>iPhone SE</h3>
+                    <h4>From &#8369;26,490</h4>
+                    <img src="img/ipse.png" height="150px;">
+                    <p class="vantage">&#9745; 4.7" </p>
+                    <p class="vantage">&#9745; A13 Bionic chip</p>
+                    <p class="vantage">&#9745; Single Camera System</p>
+                    <p class="vantage">&#9745; Finger print scanner</p>
+                    <p class="vantage">&#9745; 4G LTE Cellular</p>
+                    <button id="button1">Purchase</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2021 Apple Inc. All rights reserved.
+    </footer>
+</body>
+</html>
